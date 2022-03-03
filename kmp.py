@@ -50,7 +50,6 @@ def computeLPSArray(pat, pattern_length , lps):
             lps[i] = len
             i += 1
         else:
-            # AAACAAAA and i = 7. The idea is similar 
             # to search step.
             if len != 0:
                 len = lps[len-1]
